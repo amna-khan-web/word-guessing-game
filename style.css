@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lobster", sans-serif;
+}
+  /* Index Page Css Style start from here */
+.container,.game-container{
+    align-items: center;
+    animation: slightly 2s ease-out;
+    max-width: 90%;
+}
+
+/* Animations */
+    @keyframes slightly {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+#play{
+    margin-top: 100px;
+    background-color: #1c4d88; 
+    color: white; 
+    padding: 15px 32px;
+    font-size: 16px; 
+    border: none;
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+#play:hover {
+    background-color: #47717c; 
+    transform: scale(1.1); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+   
+.container h1{
+    color: #231c36;
+    font-size: 3rem;
+    text-shadow: 2px 2px white;
+}
+.container p{
+    color: #38256b;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+ /* Index Page Css Style End */
+.game-container {
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 30px;
+    box-shadow: 3px 19px 38px 5px rgba(0, 0, 0, 0.1);
+    background-image: linear-gradient(rgb(199, 206, 218),rgb(239, 244, 247));
+}
+#attempts{
+    color: #105203;
+}
+
+.game-container h1 {
+    color: #3a0350;
+    font-size: 3em;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px rgb(34, 116, 52);
+}
+
+#message {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #053d63;
+    text-align: center;
+    text-shadow:2px 2px #bae5e2;
+    
+}
+
+#category {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #032646;
+    text-align: center;
+}
+.text-center{
+    color: #352758;
+    font-size: 1.2rem;
+}
+#category-select{
+    text-align: center;
+    background-color: #460d61;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding:3px 10px;
+    margin-left: 23px;
+    font-size: 1rem;
+}
+
+#guess-input{
+    margin-left: 20%;
+    text-align: center;
+    border: 1px solid rgb(187, 181, 181);
+    padding: 8px 29px;
+    
+}
+
+#hint-message {
+    font-size: 1.1em;
+    color: #ce6654;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#hidden-word {
+    font-size: 1.5em;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.custom-btn {
+    background-color: #4f4169;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin: 10px;
+  }
+  
+  .custom-btn:hover {
+    background-color: #095f86;
+    transform: scale(1.05);
+  }
+  
+  /* Scoreboard Styles */
+  #scoreboard {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    border: 2px solid #030c58;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  
