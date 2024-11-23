@@ -5,7 +5,7 @@ const categories = {
   "Animals": ["lion", "elephant", "tiger", "giraffe", "zebra"]
 };
 
-let selectedCategory = "Programming"; // default category
+let selectedCategory = "Programming"; 
 let selectedWord = "";
 let attempts = 5;
 let guessedWord = [];

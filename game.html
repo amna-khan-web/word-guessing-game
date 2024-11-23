@@ -15,15 +15,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+  <!-- Internally css apply for animated background -->
+
   <style>
     .background {
       margin: 0;
       padding: 0;
       height: 100vh;
-      /* Full viewport height */
       display: grid;
       place-items: center;
-      /* Center horizontally and vertically */
       background: linear-gradient(-45deg, #7472c9, #9b9395, #9797b6, #725c77);
       background-size: 400% 400%;
       animation: gradientBG 3s ease infinite;
@@ -59,11 +60,15 @@
         <option value="Animals">Animals</option>
       </select>
     </p>
+
+    <!-- category of different things which display Through JavaScript -->
+
     <p id="category">Category: <span id="category-name">Programming</span></p>
     <p id="hint-message"></p>
     <p id="hidden-word">_ _ _ _</p>
     <p class="text-center text-secondary">Remaining Attempts: <span id="attempts">5</span></p>
 
+    <!-- input and buttons applied section -->
     <div class="my-3">
       <input type="text" id="guess-input" maxlength="1" placeholder="Enter a letter">
     </div>
@@ -80,6 +85,8 @@
       <p id="score">Score: 0</p>
     </div>
   </div>
+
+  <!-- JS file externally apply -->
   <script src="script.js"></script>
 
 </body>
